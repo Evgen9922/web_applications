@@ -1,0 +1,21 @@
+
+.content {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1350px) {
+
+  .content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .content {
+    padding-left:0;
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,144 @@
+
+// -------Мастер-класс grid------------
+
+.master-class {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) ;
+  gap: 30px;
+} 
+
+.master-class__right-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 23px 25px;
+}
+
+.master-class__img:nth-child(3n+1) {
+  grid-column: span 2;
+  grid-auto-rows: minmax(200px, 300px);
+  
+}
+
+// ---------- О студии ------------------
+
+.about-studio__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 29px;
+}
+
+
+// -----------Наши проекты-----------
+
+.our-projects__part {
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+grid-auto-rows: minmax(300px, auto);
+gap: 30px 26px;
+}
+
+.our-projects__small-img {
+  grid-column: span 2;
+}
+
+.our-projects__big {
+  grid-column: span 6;
+}
+
+.our-projects__medium-img {
+  grid-column: span 3;
+}
+
+// -----------сервисы-------------
+
+.services__section-tab1 {
+  display: grid;
+  grid-template-columns: 1fr 410px;
+  gap: 20px 26px;
+}
+
+.services__section-tab1-left {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: min-content;
+  gap: 20px;
+}
+
+.services__section-tab2 {
+  display: grid;
+  grid-template-columns: 1fr 410px;
+  gap: 28px 26px;
+}
+
+.services__section-tab2-left {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: min-content;
+  gap: 24px 25px;
+}
+
+.services__right-list-imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px 30px;
+}
+
+// -------------мастер классы------------
+
+.master-classes__img {
+  grid-area: master-img;
+}
+
+.master-classes__text {
+  grid-area: master-text;
+}
+
+.master-classes__imgs-list {
+  grid-area: master-imgs;
+}
+
+.master-classes__section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(330px, auto);
+  gap: 30px;
+  grid-template-areas: 
+  "master-img  master-text  master-imgs";
+}
+
+.master-classes__imgs-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: min-content;
+  grid-row-gap: 28px;
+}
+
+// ----------контакты---------------
+
+.contacts {
+  display: grid;
+  grid-template-columns: 66% 1fr;
+  gap: 30px;
+}
+
+// --------футер---------
+.footer__logo {
+  grid-area: logo;
+}
+
+.footer__text {
+  grid-area: _text;
+}
+
+.footer__social {
+  grid-area: social;
+}
+
+.footer__top {
+  display: grid;
+  grid-template-columns: 263px 402px 164px;
+  grid-template-rows: minmax(66px, auto);
+  gap: 231px;
+  grid-template-areas: 
+  "logo _text social";
+}

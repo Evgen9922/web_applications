@@ -1,0 +1,269 @@
+.master-class {
+  padding-top: 29px;
+  padding-bottom: 34px;
+  width: 100%;
+  color: $label_text_color;
+}
+
+.master-class {
+  .img-label {
+    top: 14px;
+    width: 130px;
+  }
+}
+
+.master-class__left {
+  padding-top: 12px;
+}
+
+.master-class__left-content {
+  position: relative;
+  width: 100%;
+  max-height: 630px;
+  height: 99%;
+
+  padding-right: 15px;
+  background-size: cover;
+  background-position: top;
+  background-image: url("../img/fig_1.webp");
+}
+
+.master-class__left-text {
+  position: absolute;
+  max-width: 425px;
+  bottom: 61px;
+  left: 59px;
+}
+
+.master-class__left-text-IR {
+  font-size: 16px;
+}
+
+.master-class__left-text {
+  h3 {
+    margin-bottom: 22px;
+    font-family: "fn-bold", sans-serif;
+    font-size: 36px;
+    line-height: 37px;
+  }
+}
+
+.know-how {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 159px;
+  min-height: 47px;
+  background-color: $btn_color;
+  color: $label_text_color;
+}
+
+.master-class__right {
+  font-family: "fn-bold", sans-serif;
+}
+
+.master-class__title {
+  margin-bottom: 19px;
+  font-size: 1.5em;
+  color: $section_color;
+}
+
+// ---------------------------------------
+
+@media (max-width: 1350px) {
+  .master-class__left-text {
+    h3 {
+      font-size: 32px;
+    }
+  }
+
+  .master-class__left {
+    padding-top: 0;
+  }
+
+  .master-class__title {
+    margin-bottom: 0;
+    line-height: 25px;
+  }
+}
+
+// ------------------------------------
+@media (max-width: 1024px) {
+  .master-class {
+    padding-left: 31px;
+    padding-top: 40px;
+    padding-right: 28px;
+    padding-bottom: 33px;
+    gap: 30px;
+    grid-row-gap: 25px;
+  }
+
+  .master-class__title {
+    padding-bottom: 22px;
+  }
+
+  .master-class__left-content {
+    background-image: url("../img/fig_1-1024.jpg");
+    max-height: 624px;
+  }
+
+  .master-class__left-text {
+    left: 30px;
+    bottom: 32px;
+    h3 {
+      margin-bottom: 21px;
+    }
+  }
+
+  .master-class__bottom {
+    padding-top: -5px;
+  }
+
+  .know-how {
+    margin-top: 18px;
+  }
+}
+// -------------------------------
+
+@media (max-width: 860px) {
+  .master-class__left-content {
+    max-height: 535px;
+  }
+}
+// ---------------------------
+
+@media (max-width: 768px) {
+  .master-class__title {
+    padding-bottom: 19px;
+    line-height: 21px;
+    font-size: 22px;
+  }
+
+  .master-class__left-content {
+    max-height: 453px;
+  }
+
+  .master-class__top {
+    img {
+      max-height: 227px;
+    }
+  }
+  .master-class__left-text-IR {
+    margin-bottom: 10px;
+  }
+
+  .master-class__left-text h3 {
+    line-height: 33px;
+  }
+}
+// ------------------------------
+@media (max-width: 640px) {
+  .master-class {
+    gap: 10px;
+  }
+  .master-class__right-content {
+    gap: 7px;
+  }
+
+  .master-class__title {
+    padding-bottom: 12px;
+  }
+
+  .master-class__left-text {
+    h3 {
+      font-size: 28px;
+    }
+  }
+
+  .master-class__top {
+    img {
+      max-height: none;
+    }
+  }
+}
+// -----------------------------
+// @media (max-width: 480px) {
+  // .master-class {
+  //   grid-template-columns: 1fr;
+  // }
+
+  // .master-class__left {
+  //   height: 458px;
+  // }
+
+  // .master-class__left-text-IR {
+  //   font-size: 14px;
+  // }
+
+  // .master-class__left-text h3 {
+  //   line-height: 26px;
+  //   font-size: 24px;
+  // }
+// }
+// --------------------------------
+@media (max-width: 576px) {
+  .master-class {
+    grid-template-columns: 1fr;
+    padding-left: 21px;
+    padding-right: 21px;
+    gap: 9px;
+
+    .know-how {
+      max-width: 145px;
+      min-height: 40px;
+    }
+    .img-label {
+      top: 5px;
+      width: 92px;
+    }
+  }
+
+  .master-class {
+    padding-bottom: 35px;
+  }
+
+  .master-class__left-content {
+    max-height: 422px;
+  }
+
+  .master-class__left {
+    height: 426px;
+  }
+
+  // .master-class__left {
+  //   height: 458px;
+  // }
+
+  .master-class__left-text {
+    bottom: 30px;
+    width: 84%;
+    h3 {
+      margin-bottom: 15px;
+      line-height: 26px;
+      font-size: 24px;
+    }
+  }
+
+  .master-class__left-text-IR {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .master-class__title {
+    padding-top: 21px;
+    padding-bottom: 18px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .master-class__right-content {
+    grid-column-gap: 30px;
+    grid-row-gap: 14px;
+  }
+
+  .master-class__right-bottom-left,
+  .master-class__right-botton-right {
+    padding-top: 10px;
+  }
+}

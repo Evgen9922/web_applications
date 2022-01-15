@@ -130,7 +130,14 @@ transition-timing-function: linear;
   color: $color_lather;
 }
 
+.destination {
+  margin-bottom: 15px;
+  color: $color_yellow;
+  font-size: 18px;
+}
+
 .main__do_technolog {
+  margin-bottom: 15px;
   line-height: 28px;
 }
 
@@ -152,8 +159,14 @@ margin-bottom: 15px;
   }
 }
 
-.main__do-tecgnolog {
-  font-size: 16px;
+
+.native-code {
+margin-bottom: 20px;
+font-size: 20px;
+a {
+  color: $color_blue;
+  text-decoration: none;
+}
 }
 
 .tabl_info {

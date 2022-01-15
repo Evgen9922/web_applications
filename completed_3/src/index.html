@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="фотография, масте-класс">
+  <meta name="discription" content="сайт фотографий и мастерклассов">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=6140f670-f02c-4953-9bfa-83229d24b3ea&lang=ru_RU"></script>
+  <!-- <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/js_style.css"> -->
+  <!-- <link rel="stylesheet" href="style/main.css"> -->
+  <link rel="stylesheet" href="style/style.css">
+
+  <title>Сайт фотографий</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="visually-hidden">Сайт фотографий</h1>
+    <header class="header">
+      <div class="header__top">
+        <div class="header__top-content content">
+
+          <a class="logo">
+            <img src="img/logo.svg" class="header__logo" alt="Логотип" />
+          </a>
+
+          <nav class="header__menu header__menu1920">
+            <ul class="header__menu-items">
+              <li class="header__menu-item"><a href="#about_studio">О студии</a></li>
+              <li class="header__menu-item"><a href="#our_products">Наши продукты</a></li>
+              <li class="header__menu-item"><a href="#services">Услуги</a></li>
+              <li class="header__menu-item"><a href="#master_classes">Мастер-классы</a></li>
+              <li class="header__menu-item"><a href="#contacts">Контакты</a></li>
+            </ul>
+          </nav>
+
+          <div class="header__bottom-phone header__bottom-phone768">
+            <svg width="18" height="18">
+              <use xlink:href="img/stack/sprite.svg#phone"></use>
+            </svg>
+            <a href="+749546423532" class="header-phone">+7 (495)42-423-532</a>
+          </div>
+
+          <ul class="sociallink header__sociallink">
+
+            <li class="sociallink__item">
+              <a href="#1" class="sociallink__item-link" aria-label="инстаграмм">
+                <svg width="30" height="30" viewbox="0 0 30 30">
+                  <use xlink:href="img/stack/sprite.svg#social_inst"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sociallink__item">
+              <a href="#4" class="sociallink__item-link" aria-label="файсбук">
+                <svg width="30" height="30" viewbox="0 0 30 30">
+                  <use xlink:href="img/stack/sprite.svg#social_fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sociallink__item">
+              <a href="#3" class="sociallink__item-link" aria-label="вконтакте">
+                <svg width="30" height="30" viewbox="0 0 30 30">
+                  <use xlink:href="img/stack/sprite.svg#social_vk"></use>
+                </svg>
+              </a>
+            </li>
+           </ul>
+
+          <svg class="header__search-btn header__search-btn768 js-header-search">
+            <use xlink:href="img/stack/sprite.svg#header_find"></use>
+          </svg>
+
+          <button class="header__search-btn-close box-close-btn btn js-box-close-btn js-finder-hide" aria-label="Закрыть"></button>
+          <div class="header__search-content">
+            <input type="search" class="header__finder-input768 js-header-finder-input768 js-finder-hide js-finder-height" placeholder="Что будем искать?">
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="header__bottom">
+        <div class="header__bottom-content content">
+
+          <nav class="header__menu header__menu768 js-header-menu js-height js-hide">
+            <button class="header__burger-btn-close js-burger-btn-close box-close-btn btn" aria-label="Закрыть"></button>
+
+            <ul class="header__menu-items">
+              <li class="header__menu-item"><a href="#about_studio">О студии</a></li>
+              <li class="header__menu-item"><a href="#our_products">Наши продукты</a></li>
+              <li class="header__menu-item"><a href="#services">Услуги</a></li>
+              <li class="header__menu-item"><a href="#master_classes">Мастер-классы</a></li>
+              <li class="header__menu-item"><a href="#contacts">Контакты</a></li>
+            </ul>
+          </nav>
+          
+
+          <svg class="header__menu-hidden js-menu">
+            <use xlink:href="img/stack/sprite.svg#hidden-menu-768"></use>
+          </svg>
+
+          <div class="header__bottom-phone-box">
+
+            <div class="header__bottom-phone">
+              <svg width="18" height="18">
+                <use xlink:href="img/stack/sprite.svg#phone"></use>
+              </svg>
+              <a href="+749546423532" class="header-phone">+7 (495) 42-423-532</a>
+            </div>
+
+          </div>
+
+          <div class="header__finder header__finder1920">
+            <svg class="header__search-btn">
+              <use xlink:href="img/stack/sprite.svg#header_find"></use>
+            </svg>
+            <label aria-label="поле поиска">
+              <input type="text" class="header__text-find" placeholder="Что будем искать?" />
+            </label>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="master-class content">
+        <h2 class="visually-hidden">Мастер-класс</h2>
+
+        <div class="master-class__left">
+          <article class="master-class__left-content">
+            <div class="img-label"><a href="#">#мастеркласс</a></div>
+            <div class="master-class__left-text">
+              <div class="master-class__left-text-IR">Мастер-класс от Игоря Робова</div>
+              <h3>Неоновый фотосет 2.0 <br />7 июля 20:00</h3>
+              <a class="know-how btn">Узнать больше</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="master-class__right"> 
+          <h3 class="master-class__title">
+             Работы участников предыдущего мастер-класса
+          </h3>
+          <ul class="master-class__right-content">
+
+            <li class="master-class__top master-class__img">
+              <a href="#">
+                <picture>
+                  <source media="(width: 320px)" srcset="img/fig_2-320.jpg"/>
+                  <source media="(max-width: 1024px)" srcset="img/fig_2-1024.jpg"/>
+                  <img src="img/fig_2.webp" alt="Работа участника"/>
+                </picture>
+              </a>
+            </li>
+
+              <li class="master-class__right-bottom-left master-class__img">
+                <a href="#"><img src="img/fig_3.webp" alt="Работа участника"></a>
+              </li>
+    
+              <li class="master-class__right-botton-right master-class__img">
+                <a href="#"><img src="img/fig_4.webp" alt="Работа участника"></a>
+              </li>
+                    
+          </ul>
+        </div>
+      </section>
+
+      <section id="about_studio" class="about-studio">
+
+        <div class="about-studio__content content">
+          <div class="about-studio__text">
+            <h2 class="about-studio__title">О студии</h2>
+            <p>
+              В рамках спецификации современных стандартов, интерактивные прототипы, инициированные исключительно
+              синтетически, ограничены исключительно образом мышления. Предварительные выводы неутешительны:
+              высокотехнологичная концепция общественного уклада требует от нас анализа соответствующих условий
+              активизации! Следует отметить, что семантический разбор внешних противодействий фиксирует необходимость
+              распределения внутренних резервов и ресурсов. Безусловно, граница обучения кадров предоставляет широкие
+              возможности для первоочередных требований. Повседневная практика показывает, что глубокий уровень
+              погружения предполагает независимые способы реализации новых принципов формирования
+              материально-технической и кадровой базы. Приятно, граждане, наблюдать, как явные признаки
+              институционализации являются только методом политического участия и нарушающими общечеловеческие нормы
+              этики.
+            </p>
+          </div>
+
+          <div class="about-studio__rightside">
+           
+            <div class="about-studio__img">
+              <picture>
+                <source media="(max-width: 320px)" srcset="img/fig_5-320.jpg"/>
+                <source media="(max-width: 768px)" srcset="img/fig_5-768.jpg"/>
+                <source media="(max-width: 1024px)" srcset="img/fig_5-1024.jpg"/>
+                <img src="img/fig_5.webp" alt="О студии"/>
+              </picture>
+            </div>
+
+            <form class="about-studio__form" aria-labelledby="name1">
+              <label for="name1">Подписаться на рассылку</label>
+              <div class="about-studio__email">
+                <div class="about-studio__email-fields just-validate-tooltip-container">
+                  <label aria-label="Подписаться на рассылку">
+
+                    <input 
+                      name="name"  
+                      type="email" 
+                      id="name1" 
+                      class="about-studio__email-input input-field "
+                      placeholder="E-mail" 
+                      data-validate-field="email"
+                    />
+
+                  </label>
+                </div>
+                <input type="submit" class="btn_send btn" aria-label="Отправить" />
+              </div>
+            </form>
+
+          </div>
+        </div>
+
+      </section>
+
+      <section id="our_products" class="our-projects">
+
+        <div class="our-projects__top">
+          <h2 class="our-projects__title content">Наши проекты</h2>
+
+          <div class="our-projects__btns320  content">
+            <button class="our-projects__page-btn1 our-projects__page-btn btn js-page-btn js-page-btn-active"
+              data-page="page1" aria-label="вкладка 1">1</button>
+            <button class="our-projects__page-btn2 our-projects__page-btn btn js-page-btn" aria-label="вкладка 2"
+              data-page="page2">2</button>
+          </div>
+
+        </div>
+
+        <div class="our-projects__part our-projects__part1 content page-active" data-page="page1">
+
+            <div class="our-projects__small-one our-projects__small-img">
+              <a href="#"></a>
+              <div class="img-label">#пейзаж</div>
+              <div class="our-projects__small-text our-projects-text ">
+                Синтетически, смешаны с не уникальными данными до степени...
+              </div>
+              <span class="calendar-icon">16 июля</span>
+            </div>
+
+            <div class="our-projects__small-two our-projects__small-img">
+              <a href="#"></a>
+              <div class="img-label">#портрет</div>
+              <div class="our-projects__small-text">
+                В своём стремлении улучшить опыт мы упускаем, что явные...
+              </div>
+              <span class="calendar-icon">29 мая</span>
+            </div>
+
+
+
+            <div class="our-projects__small-three our-projects__small-img">
+              <a href="#"></a>
+              <div class="img-label">#предмет</div>
+              <div class="our-projects__small-text">
+                Равным образом, высокое качество позиционных...
+              </div>
+              <span class="calendar-icon">14 мая</span>
+            </div>
+
+            <div class="our-projects__small-four our-projects__small-img">
+              <a href="#"></a>
+              <div class="img-label">#пейзаж</div>
+              <div class="our-projects__small-text">
+                Равным образом, сложившаяся структура организации...
+              </div>
+              <span class="calendar-icon">15 февраля</span>
+            </div>
+
+           <div class="our-projects__big our-projects__big-right">
+            <span class="calendar-icon-img">9 апреля</span>
+            <div class="img-label"><a href="#">#fuji</a></div>
+            <div class="our-projects__big-content">
+              <div class="our-projects__big-title">
+                Cемантический разбор
+              </div>
+              <div class="our-projects__big-text">
+                В рамках спецификации современных стандартов, интерактивные прототипы
+              </div>
+            </div>
+            <a href="#" class="our-projects__link btn">О проекте</a>
+          </div>
+
+          <div class="our-projects__big our-projects__big-left">
+            <div class="img-label"><a href="#">#проектзабвение</a></div>
+            <span class="calendar-icon-img">20 марта</span>
+            <div class="our-projects__big-content">
+              <div class="our-projects__big-title">
+                Забвение
+              </div>
+              <div class="our-projects__big-text">
+                Играет важную роль в формировании глубокомысленных рассуждений
+              </div>
+            </div>
+            <a href="#" class="our-projects__link btn">О проекте</a>
+          </div>
+
+          <div class="our-projects__medium-left our-projects__medium-img">
+            <a href="#"></a>
+            <div class="img-label">#ретушь</div>
+            <div class="our-projects__medium-text">
+              Как принято считать, многие известные личности и по сей день остаются уделом либералов...
+            </div>
+            <span class="calendar-icon">9 матра</span>
+          </div>
+
+          <div class="our-projects__medium-right our-projects__medium-img">
+            <a href="#"></a>
+            <div class="img-label">#портрет</div>
+            <div class="our-projects__medium-text">
+              С учётом сложившейся международной обстановки, новая модель организационной...
+            </div>
+            <span class="calendar-icon">9 марта</span>
+          </div>
+
+        </div>
+
+        <!-- part 2 -->
+
+        <div class="our-projects__part our-projects__part2 content" data-page="page2">
+
+            <div class="our-projects__big our-projects__big-left">
+              <div class="img-label"><a href="#">#портрет</a></div>
+              <span class="calendar-icon-img">24 февраля</span>
+              <div class="our-projects__big-content">
+                <div class="our-projects__big-title">
+                  Спорная точка зрения
+                </div>
+                <div class="our-projects__big-text">
+                  Ясность нашей позиции очевидна: убеждённость некоторых оппонентов
+                </div>
+              </div>
+              <a href="#" class="our-projects__link btn">О проекте</a>
+            </div>
+
+            <div class="our-projects__medium-left our-projects__medium-img">
+              <a href="#"></a>
+              <div class="img-label">#ретушь</div>
+              <div class="our-projects__medium-text">
+                Идейные соображения высшего порядка, а также убеждённость некоторых оппонентов...
+              </div>
+              <span class="calendar-icon">20 февраля</span>
+            </div>
+  
+            <div class="our-projects__medium-right our-projects__medium-img">
+              <a href="#"></a>
+              <div class="img-label">#портрет</div>
+              <div class="our-projects__medium-text">
+                Прежде всего, повышение уровня гражданского сознания говорит о возможностях приоритизации...
+              </div>
+              <span class="calendar-icon">18 февраля</span>
+            </div>
+
+            <div class="our-projects__small-three our-projects__small-img">
+              <a href="#"></a>
+              <div class="img-label">#предмет</div>
+              <div class="our-projects__small-text">
+                Безусловно, курс на социальный национальный...
+              </div>
+              <span class="calendar-icon">7 февраля</span>
+            </div>
+            
+
+            <div class="our-projects__small-four our-projects__small-img">
+              <a href="#"></a>
+              <div class="img-label">#пейзаж</div>
+              <div class="our-projects__small-text">
+                Равным образом, сложившаяся структура организации...
+              </div>
+              <span class="calendar-icon">15 февраля</span>
+            </div>
+
+            <div class="our-projects__small-one our-projects__small-img">
+              <a href="#"></a>
+              <div class="img-label">#пейзаж</div>
+              <div class="our-projects__small-text">
+                Равным образом, сложившаяся структура организации...
+              </div>
+              <span class="calendar-icon">15 февраля</span>
+            </div>
+
+            <div class="our-projects__small-two our-projects__small-img">
+              <a href="#"></a>
+              <div class="img-label">#предмет</div>
+              <div class="our-projects__small-text">
+                Безусловно, реализация намеченных плановых заданий обеспечивает...
+              </div>
+              <span class="calendar-icon">10 февраля</span>
+            </div>
+
+            <div class="our-projects__big our-projects__big-right">
+              <span class="calendar-icon-img">2 февраля</span>
+              <div class="img-label"><a href="#">#проектджаз</a></div>
+              <div class="our-projects__big-content">
+                <div class="our-projects__big-title">
+                  Задания по разработке своевременного
+                </div>
+                <div class="our-projects__big-text">
+                  Повседневная практика показывает, что сложившаяся структура организации играет важную роль
+                </div>
+              </div>
+              <a href="#" class="our-projects__link btn">О проекте</a>
+            </div>
+
+        </div> 
+
+         <div class="our-projects__btns1920 our-projects__btns content">
+          <button class="our-projects__page-btn1 our-projects__page-btn btn js-page-btn js-page-btn-active"
+            data-page="page1" aria-label="вкладка 1">1</button>
+          <button class="our-projects__page-btn2 our-projects__page-btn btn js-page-btn" aria-label="вкладка 2"
+            data-page="page2">2</button>
+        </div>
+      </section>
+
+      <section id="services" class="services">
+
+        <h2 class="visually-hidden">Сервис</h2>
+        <!-- tab 1  -->
+        <div class="services__top content">
+          <h2 class="services__top-title">Услуги студии</h2>
+
+          <div class="services__tab-box">
+            <div class="services__tabs">
+              <button class="services__tab-left services__tab tab-active btn" data-tab="tab1">Основной перечень</button>
+              <button class="services__tab-right services__tab btn" data-tab="tab2">Услуги по ретуши</button>
+            </div>
+
+            <div class="services__tabs-line">
+              <div class="services__tabs-move js-move-line"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="services-section services__section-tab1  content services__tab-active" data-tab="tab1">
+
+          <ul class="services__section-tab1-left">
+
+            <li class="services__discript-tab1-item">
+              <div class="services__discript-img1 services__discript-img-tab1">
+                <picture>
+                  <source media="(min-width: 1025px)" srcset="img/fig_services_1_1920.webp"/>
+                  <source media="(min-width: 769px)" srcset="img/fig_services_1_1024.jpg"/>
+                  <source media="(min-width: 321px)" srcset="img/fig_services_1_768.jpg"/>
+                  <img src="img/fig_services_1_320.jpg" alt="Услуги студии"/>
+                </picture>
+              </div>
+              <div class="services__discript-text1 discript-text">
+                <h3>
+                  <a href="#31" class="services__discript-title">Высокий уровень вовлечения</a>
+                </h3>
+                <div class="services__discription">
+                  Высокий уровень вовлечения представителей целевой аудитории <span> является четким доказательством
+                    простого факта.</span>
+                </div>
+                <a href="#21" class="services__discript-link">Подробнее</a>
+              </div>
+            </li>
+
+            <li class="services__discript-tab1-item">
+              <div class="services__discript-img2 services__discript-img-tab1">
+                <picture>
+                  <source media="(min-width: 1025px)" srcset="img/fig_services_2_1920.webp"/>
+                  <source media="(min-width: 769px)" srcset="img/fig_services_2_1024.jpg"/>
+                  <source media="(min-width: 321px)" srcset="img/fig_services_2_768.jpg"/>
+                  <img src="img/fig_services_2_320.jpg" alt="Услуги студии"/>
+                </picture>
+              </div>
+              <div class="services__discript-text2 discript-text">
+                <h3>
+                  <a href="#32" class="services__discript-title">Диаграммы связей</a>
+                </h3>
+                <div class="services__discription">
+                  Значимость этих проблем настолько очевидна, что реализация намеченных плановых заданий влечет за собой
+                  процесс.
+                </div>
+                <a href="#22" class="services__discript-link">Подробнее</a>
+              </div>
+            </li>
+
+            <li class="services__discript-tab1-item">
+              <div class="services__discript-img3 services__discript-img-tab1">
+                <picture>
+                  <source media="(min-width: 1025px)" srcset="img/fig_services_3_1920.webp"/>
+                  <source media="(min-width: 769px)" srcset="img/fig_services_3_1024.jpg"/>
+                  <source media="(min-width: 321px)" srcset="img/fig_services_3_768.jpg"/>
+                  <img src="img/fig_services_3_320.jpg" alt="Услуги студии"/>
+                </picture>
+              </div>
+
+              <div class="services__discript-text3 discript-text">
+                <h3>
+                  <a href="#33" class="services__discript-title">Высоко&shy;технологичная концепция</a>
+                </h3>
+                <div class="services__discription">
+                  В частности, убеждённость некоторых оппонентов способствует подготовке и <span> реализации анализа
+                    существующих паттернов.</span>
+                </div>
+                <a href="#23" class="services__discript-link">Подробнее</a>
+              </div>
+            </li>
+
+            <li class="services__discript-tab1-item">
+              <div class="services__discript-img4 services__discript-img-tab1">
+                <picture>
+                  <source media="(min-width: 1025px)" srcset="img/fig_services_4_1920.webp"/>
+                  <source media="(min-width: 769px)" srcset="img/fig_services_4_1024.jpg"/>
+                  <source media="(min-width: 321px)" srcset="img/fig_services_4_768.jpg"/>
+                  <img src="img/fig_services_4_320.jpg" alt="Услуги студии"/>
+                </picture>
+              </div>
+
+              <div class="services__discript-text4 discript-text">
+                <h3>
+                  <a href="#34" class="services__discript-title">Сложившаяся структура организации</a>
+                </h3>
+                <div class="services__discription">
+                  Кстати, сторонники тоталитаризма в науке будут объединены в целые кластеры себе подобных.
+                </div>
+                <a href="#24" class="services__discript-link">Подробнее</a>
+              </div>
+            </li>
+
+            <li class="services__discript-tab1-item">
+              <div class="services__discript-img5 services__discript-img-tab1">
+                <picture>
+                  <source media="(min-width: 1025px)" srcset="img/fig_services_5_1920.webp"/>
+                  <source media="(min-width: 769px)" srcset="img/fig_services_5_1024.jpg"/>
+                  <source media="(min-width: 321px)" srcset="img/fig_services_5_768.jpg"/>
+                  <img src="img/fig_services_5_320.jpg" alt="Услуги студии"/>
+                </picture>
+              </div>
+
+              <div class="services__discript-text5 discript-text">
+                <h3>
+                  <a href="#35" class="services__discript-title">Внутренние резервы и ресурсы</a>
+                </h3>
+                <div class="services__discription">
+                  Банальные, но неопровержимые выводы, а также ключевые особенности структуры проекта являются только
+                  методом.
+                  
+                </div>
+                <a href="#25" class="services__discript-link">Подробнее</a>
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="services__right-img">
+
+            <article class="services__right-img-top">
+              <div class="services__stock">
+                <h3 class="services__stock-title">Акция!</h3>
+                <div>Только в июне</div>
+              </div>
+
+              <svg class="services__stock-img" width="116" height="59">
+                <use xlink:href="img/stack/sprite.svg#ellipse_stock"></use>
+              </svg>
+
+              <div class="services__condition">
+                <p class="services__condition-text">1,5 часа портретной съемки + ретушь 10 снимков</p>
+                <a class="know-how btn">Узнать больше</a>
+              </div>
+            </article>
+
+            <h3 class="services__title">Выполненные работы</h3>
+
+            <ul class="services__right-list-imgs" data-tab="tab1">
+              <li><a href="#"><img src="img/worked_1.webp" class="services__right-img1" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/worked_2.webp" class="services__right-img2" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/worked_3.webp" class="services__right-img3" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/worked_4.webp" class="services__right-img4" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/worked_5.webp" class="services__right-img5" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/worked_6.webp" class="services__right-img6" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/worked_7.webp" class="services__right-img7" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/worked_8.webp" class="services__right-img8" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/worked_9.webp" class="services__right-img9" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/worked_10.webp" class="services__right-img10" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/worked_11.webp" class="services__right-img11" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/worked_12.webp" class="services__right-img12" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/worked_13.webp" class="services__right-img13" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/worked_14.webp" class="services__right-img14" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/worked_15.webp" class="services__right-img15" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/worked_16.webp" class="services__right-img16" alt="выполненная работа"></a></li>
+
+            </ul>
+
+          </div>
+        </div>
+
+        <!-- tab 2 -->
+
+        <div class="services-section services__section-tab2 content" data-tab="tab2">
+
+          <ul class="services__section-tab2-left">
+
+            <li class="services__section-tab2-item">
+              <div class="services__discript-img">
+                <picture>
+                  <source media="(min-width: 1025px)" srcset="img/part2/serv_2_1.jpg"/>
+                  <img src="img/part2/serv_2_2_1.jpg" alt="Услуги студии"/>
+                </picture>
+              </div>
+              <div class="services__discript-text1 discript-text">
+                <h3>
+                  <a href="#31" class="services__discript-title services__discript-title-tab2">Принимая во
+                  внимание показатели </a>
+              </h3>
+                <a href="#21" class="services__discript-link">Подробнее</a>
+              </div>
+            </li>
+
+            <li class="services__section-tab2-item">
+              <div class="services__discript-img">
+                <picture>
+                  <source media="(min-width: 1025px)" srcset="img/part2/serv_2_2.jpg"/>
+                  <img src="img/part2/serv_2_2_2.jpg" alt="Услуги студии"/>
+                </picture>
+              </div>
+              <div class="services__discript-text2 discript-text">
+                <h3>
+                  <a href="#32" class="services__discript-title services__discript-title-tab2">Также как
+                  высокое качество...</a>
+                </h3>
+                <a href="#22" class="services__discript-link">Подробнее</a>
+              </div>
+            </li>
+
+            <li class="services__section-tab2-item">
+              <div class="services__discript-img">
+                <picture>
+                  <source media="(min-width: 1025px)" srcset="img/part2/serv_2_3.jpg"/>
+                  <img src="img/part2/serv_2_2_3.jpg" alt="Услуги студии"/>
+                </picture>
+              </div>
+              <div class="services__discript-text3 discript-text">
+                <h3>
+                  <a href="#33" class="services__discript-title services__discript-title-tab2">Внезапно,
+                  предприниматели в интернете...</a>
+                </h3>
+                <a href="#23" class="services__discript-link">Подробнее</a>
+              </div>
+            </li>
+
+            <li class="services__section-tab2-item">
+              <div class="services__discript-img">
+                <picture>
+                  <source media="(min-width: 1025px)" srcset="img/part2/serv_2_4.jpg"/>
+                  <img src="img/part2/serv_2_2_4.jpg" alt="Услуги студии"/>
+                </picture>
+              </div>
+              <div class="services__discript-text4 discript-text">
+                <h3>
+                  <a href="#34" class="services__discript-title services__discript-title-tab2">Сделанные на
+                  базе аналитики выводы...</a>
+                </h3>
+                <a href="#24" class="services__discript-link">Подробнее</a>
+              </div>
+            </li>
+
+            <li class="services__section-tab2-item">
+              <div class="services__discript-img">
+                <picture>
+                  <source media="(min-width: 1025px)" srcset="img/part2/serv_2_5.jpg"/>
+                  <img src="img/part2/serv_2_2_5.jpg" alt="Услуги студии"/>
+                </picture>
+              </div>
+              <div class="services__discript-text5 discript-text">
+                <h3>
+                  <a href="#35" class="services__discript-title services__discript-title-tab2">Задача
+                  организации, в особенности...</a>
+                </h3>
+                <a href="#25" class="services__discript-link">Подробнее</a>
+              </div>
+            </li>
+
+            <li class="services__section-tab2-item">
+              <div class="services__discript-img">
+                <picture>
+                  <source media="(min-width: 1025px)" srcset="img/part2/serv_2_6.jpg"/>
+                  <img src="img/part2/serv_2_2_6.jpg" alt="Услуги студии"/>
+                </picture>
+              </div>
+              <div class="services__discript-text6 discript-text">
+                <h3>
+                  <a href="#36" class="services__discript-title services__discript-title-tab2">Таким
+                  образом, выбранный нами...</a>
+                </h3>
+                <a href="#26" class="services__discript-link">Подробнее</a>
+              </div>
+            </li>
+
+            <li class="services__section-tab2-item">
+              <div class="services__discript-img">
+                <picture>
+                  <source media="(min-width: 1025px)" srcset="img/part2/serv_2_7.jpg"/>
+                  <img src="img/part2/serv_2_2_7.jpg" alt="Услуги студии"/>
+                </picture>
+              </div>
+              <div class="services__discript-text7 discript-text">
+                <h3>
+                  <a href="#37" class="services__discript-title services__discript-title-tab2">Безусловно,
+                  семантический разбор...</a>
+                </h3>
+                <a href="#27" class="services__discript-link">Подробнее</a>
+              </div>
+            </li>
+
+            <li class="services__section-tab2-item">
+              <div class="services__discript-img">
+                <picture>
+                  <source media="(min-width: 1025px)" srcset="img/part2/serv_2_8.jpg"/>
+                  <img src="img/part2/serv_2_2_8.jpg" alt="Услуги студии"/>
+                </picture>
+              </div>
+              <div class="services__discript-text8 discript-text">
+                <h3>
+                  <a href="#38" class="services__discript-title services__discript-title-tab2">Есть над чем
+                  подумать: активные...</a>
+                </h3>
+                <a href="#28" class="services__discript-link">Подробнее</a>
+              </div>
+            </li>
+
+            <li class="services__section-tab2-item">
+              <div class="services__discript-img">
+                <picture>
+                  <source media="(min-width: 1025px)" srcset="img/part2/serv_2_9.jpg"/>
+                  <img src="img/part2/serv_2_2_9.jpg" alt="Услуги студии"/>
+                </picture>
+              </div>
+              <div class="services__discript-text9 discript-text">
+                <h3>
+                  <a href="#39" class="services__discript-title services__discript-title-tab2">Как принято
+                  считать, сторонники...</a>
+                </h3>
+                <a href="#29" class="services__discript-link">Подробнее</a>
+              </div>
+            </li>
+
+            <li class="services__section-tab2-item">
+              <div class="services__discript-img">
+                <picture>
+                  <source media="(min-width: 1025px)" srcset="img/part2/serv_2_10.jpg"/>
+                  <img src="img/part2/serv_2_2_10.jpg" alt="Услуги студии"/>
+                </picture>
+              </div>
+              <div class="services__discript-text10 discript-text">
+                <h3>
+                  <a href="#40" class="services__discript-title services__discript-title-tab2">Активно
+                  развивающиеся страны...</a>
+                </h3>
+                <a href="#40" class="services__discript-link">Подробнее</a>
+              </div>
+            </li>
+          </ul>
+
+          <div class="services__right-img">
+            <div class="services__right-img-top">
+              <div class="services__stock">
+                <div>Акция!</div>
+                <div>Только в июне</div>
+              </div>
+
+              <svg class="services__stock-img" width="116" height="59">
+                <use xlink:href="img/stack/sprite.svg#ellipse_stock"></use>
+              </svg>
+
+              <div class="services__condition">
+                <p class="services__condition-text">1,5 часа портретной съемки + ретушь 10 снимков</p>
+                <a class="know-how btn">Узнать больше</a>
+              </div>
+            </div>
+
+            <div class="services__title">Выполненные работы</div>
+
+            <ul class="services__right-list-imgs" data-tab="tab1">
+              <li><a href="#"><img src="img/part2/worked_2_1.jpg" class="services__right-img1" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/part2/worked_2_2.jpg" class="services__right-img2" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/part2/worked_2_3.jpg" class="services__right-img3" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/part2/worked_2_4.jpg" class="services__right-img4" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/part2/worked_2_5.jpg" class="services__right-img5" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/part2/worked_2_6.jpg" class="services__right-img6" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/part2/worked_2_7.jpg" class="services__right-img7" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/part2/worked_2_8.jpg" class="services__right-img8" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/part2/worked_2_9.jpg" class="services__right-img9" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/part2/worked_2_10.jpg" class="services__right-img10" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/part2/worked_2_11.jpg" class="services__right-img11" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/part2/worked_2_12.jpg" class="services__right-img12" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/part2/worked_2_13.jpg" class="services__right-img13" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/part2/worked_2_14.jpg" class="services__right-img14" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/part2/worked_2_15.jpg" class="services__right-img15" alt="выполненная работа"></a></li>
+              <li><a href="#"><img src="img/part2/worked_2_16.jpg" class="services__right-img16" alt="выполненная работа"></a></li>
+
+            </ul>
+
+          </div>
+        </div>
+
+      </section>
+
+      <section id="master_classes" class="master-classes">
+        <h2 class="master-classes__title content">Мастер-классы</h2>
+
+        <div class="master-classes__section content">
+
+          <picture class="master-classes__img">
+            <source media="(min-width: 1025px)" srcset="img/master_class_1920.webp"/>
+            <source media="(min-width: 769px)" srcset="img/master_class_1024.jpg"/>
+            <source media="(min-width: 321px)" srcset="img/master_class_768.jpg"/>
+            <img src="img/master_class_768.jpg" alt="Мастер классы"/>
+          </picture>
+
+          <div class="master-classes__text">
+            <div class="master-classes__icons">
+              <span class="calendar-icon-img">9 матра</span>
+              <span class="time-icon">15:00</span>
+            </div>
+            <div class="master-classes__text-title">Планка для начинающих</div>
+            <div class="master-classes__text-text">
+              Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого
+              факта: семантический разбор внешних противодействий, в своём классическом представлении.
+            </div>
+            <a href="#" class="know-how btn">Узнать больше</a>
+          </div>
+
+            <ul class="master-classes__imgs-list">
+              
+              <li class="master-classes__imgs-item">
+                <a href="#"></a>
+                <img src="img/master_class_2.webp" class="master-classes__item-img" alt="мастер-классы">
+                <div class="master-classes__about">
+                  <span class="calendar-icon-img">9 матра</span>
+                  <span class="time-icon">15:00</span>
+                  <div class="master-classes__about-text">Ретушь. Продвинутый уровень</div>
+                </div>
+              </li>
+
+              <li class="master-classes__imgs-item">
+                <a href="#"></a>
+                <img src="img/master_class_3.webp" class="master-classes__item-img" alt="мастер-классы">
+                <div class="master-classes__about">
+                  <span class="calendar-icon-img">9 матра</span>
+                  <span class="time-icon">15:00</span>
+                  <div class="master-classes__about-text">Портретная съемка. Свет</div>
+                </div>
+              </li>
+
+              <li class="master-classes__imgs-item">
+                <a href="#"></a>
+                <img src="img/master_class_4.webp" class="master-classes__item-img" alt="мастер-классы">
+                <div class="master-classes__about">
+                  <span class="calendar-icon-img">9 матра</span>
+                  <span class="time-icon">15:00</span>
+                  <div class="master-classes__about-text">Макросъемка. Проблемы и нюансы</div>
+                </div>
+              </li>
+  
+              <li class="master-classes__imgs-item">
+                <a href="#"></a>
+                <img src="img/master_class_5.webp" class="master-classes__item-img" alt="мастер-классы">
+                <div class="master-classes__about">
+                  <span class="calendar-icon-img">9 матра</span>
+                  <span class="time-icon">15:00</span>
+                  <div class="master-classes__about-text">Творческая ретушь для начинающих</div>
+                </div>
+              </li>
+
+            </ul>
+
+         </div>
+      </section>
+
+      <section id="contacts" class="contacts-section">
+        <h2 class="contacts-section__title content">Контакты</h2>
+        <div class="contacts content">
+          <div id="map" class="contacts__map-adress">
+            <div class="contacts__adress-box">
+              <button class="contacts__adress-box-close box-close-btn btn js-close-btn" aria-label="Закрыть"></button>
+              <div class="contacts__adress-text">
+                <div class="contacts__adress-box-title">
+                  Студия “High pass”
+                </div>
+
+                <address>
+                  107045, Москва, Даев переулок, дом 41, бизнес-центр «Даев Плаза», этаж 8, офис № 82
+                    <a href="+749542423532" class="header-phone contacts__adress-phones-1024">
+                      <svg width="18" height="18">
+                      <use xlink:href="img/stack/sprite.svg#phone"></use>
+                    </svg>
+                      +7 (495) 42-423-532</a>
+                </address>
+
+                  <a href="+749542423532" class="header-phone contacts__adress-phones">
+                   <svg width="18" height="18">
+                    <use xlink:href="img/stack/sprite.svg#phone"></use>
+                  </svg> 
+                    +7 (495) 42-423-532
+                  </a>
+
+              </div>
+
+            </div>
+          </div>
+
+          <form class="contacts__form" aria-label="форма для заявки">
+            <div>
+              <h3>Оставить заявку</h3>
+              <p class="contacts__form-text">
+                Оставьте ваши данные, указав в графе “Комментарий” желаемые время и дату съемки или другого
+                мероприятия
+              </p>
+              <label>
+                <input type="text" class="contacts__form-name form-input input-field" placeholder="Имя"
+                  data-validate-field="name" />
+              </label>
+              <label>
+                <input type="email" class="contacts__form-email form-input input-field" placeholder="E-mail"
+                  data-validate-field="email" />
+              </label>
+              <label>
+                <textarea placeholder="Комментарий" class="contacts__form-comment form-input input-field"
+                ></textarea>
+              </label>
+
+              <input type="submit" class="btn_send btn" aria-label="Отправить" >
+            </div>
+          </form>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+
+      <div class="footer__top content">
+        <div class="logo footer__logo">
+          <a href="#">
+            <img src="img/logo.svg" class="footer__logo-img" alt="Логотип" />
+          </a>
+          <div class="footer__logo-text">Фотостудия High pass<sup>®</sup> 2018-2020</div>
+        </div>
+
+        <div class="footer__text">
+          <div>
+            Которая из моих фотографий самая любимая?<br> Та, которую я собираюсь снять завтра.
+          </div>
+          <a href="#" class="footer__text-imodgen" rel="noopener">© Имоджен Каннингем</a>
+        </div>
+
+        <div class="footer__social">
+          Больше интересного:
+          <ul class="sociallink footer__sociallink">
+
+            <li class="sociallink__item">
+              <a href="#1" class="sociallink__item-link" aria-label="инстраграм">
+                <svg width="30" height="30" viewbox="0 0 30 30">
+                  <use xlink:href="img/stack/sprite.svg#social_inst"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sociallink__item">
+              <a href="#4" class="sociallink__item-link" aria-label="фейсбук">
+                <svg width="30" height="30" viewbox="0 0 30 30">
+                  <use xlink:href="img/stack/sprite.svg#social_fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sociallink__item">
+              <a href="#3" class="sociallink__item-link" aria-label="вконтакте">
+                <svg width="30" height="30" viewbox="0 0 30 30">
+                  <use xlink:href="img/stack/sprite.svg#social_vk"></use>
+                </svg>
+              </a>
+            </li>
+           </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom content">
+        <div class="footer__bottom-content">
+          <img src="img/footer_logo320.svg" alt="Логотип" />
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

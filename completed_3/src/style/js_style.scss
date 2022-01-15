@@ -1,0 +1,61 @@
+@import 'variables.scss';
+// ------------наши проекты----------
+
+.js-page-btn-active, .js-page-btn-active:focus {
+  color: $label_text_color;
+  background-color: $btn_color;
+}
+
+.page-active {
+  display: grid;
+  opacity: 1;
+}
+
+// -------------Услуги студии
+.services__tab-active {
+  display: grid;
+  opacity: 1;
+}
+
+// ----------- контакты --------
+
+.js-adress-box {
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transform: scale(0.1) rotateZ(180deg);
+}
+
+.js-adress-box-close {
+  display: none;
+}
+
+.js-services__tab-move-right {
+  left: calc(100% - 145px);
+}
+
+.js-menu:active {
+  stroke: $visited_link;
+  stroke-width: 2;
+}
+
+.js-finder-hide {
+  display: none;
+}
+
+.js-finder-height {
+  height:0;
+}
+
+
+@media (max-width: 640px) {
+
+  .js-hide {
+    display: none;
+  }
+
+  .js-height {
+    height: 0;
+  }
+
+}

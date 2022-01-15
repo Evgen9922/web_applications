@@ -1,0 +1,252 @@
+.about-studio {
+  width: 100%;
+  background-color: $section_color;
+  padding-bottom: 65px;
+  padding-top: 32px;
+}
+
+.about-studio__text h2 {
+  color: $label_text_color;
+}
+
+.about-studio__email-input {
+  width: 474px;
+  height: 47px;
+  margin-bottom: 5px;
+  color: $label_text_color;
+  background-color: #4a4a4a;
+}
+.about-studio__email-input::placeholder {
+  color: $content_text_color;
+}
+
+.btn_send {
+  border: none;
+  width: 125px;
+  height: 49px;
+  background-color: $btn_color;
+  color: $label_text_color;
+}
+
+.btn_send:hover {
+  background-color: #bc572b;
+}
+.btn_send:active {
+  border: 3px solid $btn_color;
+}
+
+.about-studio__text {
+  line-height: 28px;
+}
+
+.about-studio__title {
+  margin-bottom: 5px;
+  font-family: "fn-bold", sans-serif;
+  font-size: 24px;
+  color: $label_text_color;
+}
+
+.about-studio__text {
+  p {
+    font-size: 16px;
+    color: $content_text_color;
+    color: #cacaca;
+  }
+}
+
+.about-studio__img {
+  margin-bottom: 15px;
+  padding-top: 30px;
+}
+
+.about-studio__email {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+
+.about-studio__form {
+  font-family: "fn-regular", sans-serif;
+}
+
+.about-studio__form {
+  label {
+    font-size: 24px;
+    color: $label_text_color;
+  }
+}
+
+// -------------------------------
+
+@media (max-width: 1350px) {
+
+    .about-studio__email {
+      justify-content: left;
+    }
+  
+    .about-studio__email-input {
+      width: 95%;
+    }
+  
+    .about-studio__text {
+      p {
+        line-height: 24px;
+      }
+    }
+
+  }
+
+  // ------------------------------
+
+  @media (max-width: 1024px) {
+      
+    .about-studio {
+      padding-left: 30px;
+      padding-right: 29px;
+      padding-bottom: 116px;
+    }
+  
+    .about-studio__content {
+      gap: 24px;
+    }
+  
+    .about-studio__img {
+      margin-bottom: 9px;
+    }
+  
+    .about-studio__email {
+      display: block;
+    }
+  
+    .about-studio__email-input {
+      margin-bottom: 22px;
+      width: 74%;
+      height: 51px;
+    }
+  
+    .btn_send {
+      width: 127px;
+    }
+  
+    .about-studio__text {
+      p {
+        line-height: 30px;
+      }
+    }
+  
+  }
+  // ------------------------------
+
+  @media (max-width: 860px) {
+  
+    .about-studio {
+      padding-bottom: 30px;
+    }
+  
+    .about-studio__text p {
+      line-height: 22px;
+    }
+  
+  }
+  // -----------------------------
+
+  @media (max-width: 768px) {
+
+    .about-studio {
+      padding-bottom: 65px;
+    }
+  
+    .about-studio__text p {
+      line-height: 28px;
+    }
+  
+    .about-studio__img {
+      padding-top: 32px;
+      margin-bottom: 11px;
+    }
+  
+    .about-studio__email-input {
+      width: 100%;
+    }
+    
+  }
+
+  // ----------------------------
+  @media (max-width: 640px) {
+  
+    .about-studio__text p {
+      line-height: 20px;
+    }
+  
+  }
+  // --------------------------
+  // @media (max-width: 480px) {
+
+  //   .about-studio__content {
+  //     grid-template-rows: none;
+  //     grid-template-columns: 1fr;
+  //     grid-template-areas:
+  //       "text_"
+  //       "img"
+  //       "e_mail";
+  //   }
+  // }
+  // --------------------------
+  @media (max-width: 576px) {
+  
+    .about-studio {
+      padding: 28px 20px 37px 20px;
+    }
+  
+    .about-studio__title {
+      margin-bottom: 4px;
+      font-size: 18px;
+    }
+    .about-studio__text p {
+      font-size: 14px;
+      line-height: 25px;
+    }
+  
+    .about-studio__img {
+      min-height: 300px;
+      padding-top: 0;
+      margin-bottom: 2px;
+      overflow: hidden;
+    }
+  
+    .about-studio__content {
+      grid-template-rows: none;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "text_"
+        "img"
+        "e_mail";
+      gap: 22px;
+    }
+  
+    .about-studio__form label {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  
+    .about-studio__email {
+      padding-top: 14px;
+    }
+  
+    .about-studio__email-input {
+      height: 40px;
+    }
+  
+    .just-validate-tooltip-container {
+       .js-validate-error-label {
+         top:-10px;
+       }
+    }
+   
+    .btn_send {
+      width: 115px;
+      min-height: 40px;
+      height: auto;
+    }
+  
+  }

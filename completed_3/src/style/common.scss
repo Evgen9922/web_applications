@@ -1,0 +1,246 @@
+@import 'variables.scss';
+
+// --------------fonts
+@font-face {
+  font-family: 'roboto-bold';
+  src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto-regular';
+  src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fn-bold';
+  src: url('../fonts/ttfirsneuebold-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fn-regular';
+  src: url('../fonts/ttfirsneueregular-webfont.woff2') format('woff2'),
+       url('../fonts/ttfirsneueregular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+// -------------------
+
+
+body {
+  font-family: 'roboto-regular', sans-serif;
+}
+
+
+body, h1, h2, h3{
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  background-repeat: no-repeat;  
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  padding-right: 10px;
+  border: transparent;
+  background-color: #4A4A4A;
+  transition-property: border-color;
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+}
+
+.input-field::placeholder {
+  transition-property: color;
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+}
+
+input::placeholder {
+font-family: 'roboto-regular', sans-serif;
+}
+
+a {
+  transition-property: color;
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+}
+
+svg {
+  transition-property: fill;
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  // transition-property: transform;
+  // transition-duration: 0.5s;
+  // transition-timing-function: linear;
+}
+
+img:hover {
+  // transform: scale(1.05);
+  // cursor: pointer;
+}
+
+.img-label {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 6px;
+  right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 14px;
+  padding-right: 14px;
+  height: auto;
+  // height: 28px;
+  font-size: 14px;
+  background-color: $label_back_color;
+  a {
+    color: $label_text_color;
+  }
+  a:hover {
+    color: $btn_color;
+  }
+}
+
+.calendar-icon {
+  // padding-left: 20px;
+  background-image: url("../img/calendar-icon.png");
+  background-position: left;
+  font-family: 'roboto-regular', sans-serif;
+  // font-size: 12px;
+  color: $calendar_text;
+}
+
+.calendar-icon-img {
+  // padding-left: 20px;
+  padding-right: 15px;
+  background-image: url("../img/calendar-icon.png");
+  // font-size: 12px;
+  color: #ffffff;
+}
+
+.calendar-icon, .calendar-icon-img {
+  padding-left: 20px;
+  font-size: 12px;
+  transition-property: color;
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+  &:hover {
+    color: $btn_color;
+  }
+}
+
+
+.time-icon {
+  padding-left: 18px;
+  background-image: url("../img/time.png");
+  background-position: left;
+  font-size: 12px;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.btn {
+  font-family: 'roboto-bold', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+  }
+
+.know-how:hover {
+    background-color: #BC572B;
+  }
+
+.know-how:active {
+    background-color: $btn_color;
+    border: 3px solid $visited_link;
+  }
+
+  .input-field {
+    padding-left: 23px;
+    font-size: 16px;
+    color: $section_color;
+    outline: none;
+
+      &:hover {
+        &::placeholder {
+          color: $btn_color;
+        }
+      &:focus {
+        border: none;
+        outline: 1px solid $btn_color;
+      }
+    }
+  }
+
+  .visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    outline: 2px solid red;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+
+  .box-close-btn {
+    position: absolute;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    background-image: url("../img/close_btn.png");
+    z-index: 20;
+  }
+
+  @media(max-width: 576px) {
+    .img-label {
+      padding-top: 3px;
+      padding-bottom: 3px;
+      font-size: 12px;
+    }
+  }
+
+  
